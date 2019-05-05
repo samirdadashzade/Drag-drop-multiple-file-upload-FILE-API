@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row mt-5">
+            <div class="col">
+                <div class="upload-area">
+                    <h1 class="lead">Drag files here to add them to your repository</h1>
+                    <div class="upload"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <input type="file" id="fileUpload" multiple class="form-control">
+                    <p class="lead text-center">Upload your files...</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-wrapper">
+                    <div class="upload-details my-3">
+                        <button class="btn btn-outline-dark more-files px-5 mr-3">
+                            <i class="far fa-plus-square"></i>
+                            Add more files
+                        </button>
+                        <button class="btn btn-outline-danger clear-all px-5 ">
+                            <i class="fas fa-trash-alt"></i>
+                            Clear all
+                        </button>
+                    </div>
+                    <table class="table table-bordered table-hovered upload-table">
+                        <thead>
+                            <tr>
+                                <th>№</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Size (kb)</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="lib/main.js"></script>
+</body>
+
+</html>
